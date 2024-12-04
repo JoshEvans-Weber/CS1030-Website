@@ -1,0 +1,59 @@
+/* 
+#3C64A4 Accent 1
+#A47C3C Accent 2
+#FFFFFF White
+ */
+
+
+h1, h2, h3 {
+  
+color: #3C64A4;
+}
+h1 {
+  text-align: center;
+}
+
+th, td {
+  border: #A47C3C solid 3px;
+      padding-left: 40px;
+        padding-right: 40px;
+}
+table {
+  border-collapse:collapse;
+}
+
+a {
+  font-weight:bold;
+  text-decoration:none;
+  color: #3C64A4;
+
+}
+
+a:hover {
+  color: #A47C3C;
+
+}
+p.demo {
+  color: #FFFFFF;
+  background-color:#3C64A4;
+  width:750px;
+  padding:100px;
+  border-style:groove;
+  border-width:9px;
+  border-color:#A47C3C;
+  margin:15px;
+}
+div {
+  background-color:#3C64A4;
+  width: 646px;
+  padding: 12px;
+  border-style:dotted;
+  border-width:15px;
+  border-color:#A47C3C;
+  margin:100px;
+}
+body {
+  padding:15px;
+  font-size:18px;
+
+}

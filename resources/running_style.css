@@ -1,0 +1,60 @@
+/*
+#6883A6 Steel Blue
+#7D767E Gray
+#565902 Dark Green
+#A2A632 Light Green
+#BFA473 Sand
+#2E2B2E Text Black
+#B0D7FF SkyBLue
+*/
+
+body {
+    background-color : #FDF0E0;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
+h1, h2 {
+    color : #1D4859;
+}
+h1, p.picture{
+    text-align: center;
+}
+
+p, li, th, td{
+font-size: 18px;
+}
+th, td {
+/* border-style: solid;
+border-color: #468BA6;
+border-width: 3px; */
+border: #468BA6 solid 3px;
+    padding-left: 40px;
+        padding-right: 40px;
+}
+table {
+    border-collapse: collapse;
+        margin-left: auto;
+            margin-right: auto;
+}
+td{
+
+}
+div {
+    /* 
+    block display
+    specified width
+    left and right margins need to be equal - set both to auto
+    */
+
+}
+
+a {
+    color: #593814;
+    font-weight: bold;
+}
+a:hover {
+    color: #1d4859;
+    
+}
