@@ -54,7 +54,7 @@ div.rules {
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment:local;
-    background-size: 100% 250%;
+    background-size: 300% 250%;
     background-size: contain;
     padding-bottom: 25px;
 }
