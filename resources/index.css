@@ -61,3 +61,11 @@ div.rules {
     background-attachment: fixed;
     background-size: contain;
 }
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(124, 90, 45);
+}
