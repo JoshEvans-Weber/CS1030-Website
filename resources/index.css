@@ -18,9 +18,8 @@ body {
     padding-bottom: 10px;
 
 }
-h1, h2 {
-    color : #2E2B2E;
-}
+h1, h2 {color : #2E2B2E;}
+h3{font-size: 20px;}
 h1, p.picture{
     text-align: center;
 }
