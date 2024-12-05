@@ -19,7 +19,7 @@ h1{
     font-size:xx-large;
 }
 h3{
-    text-align: center;
+    margin-left:35%;
     font-size:larger;
 }
 h4
@@ -32,10 +32,10 @@ p, li, th, td{
 font-size: 30px;
 }
 table.bordered {
-    margin-left:10%;
+    margin-left:8%;
     background-color: beige;
     border-collapse: collapse;
-    width: 80%;
+    width: 85%;
     th, td {
         border: #468BA6 solid 3px;
             padding-left: 40px;
@@ -71,13 +71,14 @@ div.table{
     height:10%;
 }
 footer {
+    
     font-size: 14px;
     padding: top 0vh;
     text-align: center;
-    position: sticky;
-    left: 0;
+    position: bottom;
+    left: -10;
     bottom: 0;
-    width: 100%;
+    width: 110%;
     height: 10%;
     background-color: rgb(124, 90, 45);
 }
