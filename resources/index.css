@@ -54,9 +54,10 @@ div.rules {
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment:local;
-    background-size: 90% 200%;
+    background-size: 85% 200%;
     padding-bottom: 25px;
-    ol{
+    .centerrules{
+        margin:auto
         text-align:center;
     }
 }
