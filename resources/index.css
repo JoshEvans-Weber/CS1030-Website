@@ -35,17 +35,14 @@ h4
 p, li, th, td{
 font-size: 30px;
 }
-th, td {
-/* border-style: solid;
-border-color: #468BA6;
-border-width: 3px; */
-border: #468BA6 solid 3px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-table {
+table.bordered {
     border-collapse: collapse;
     width: 80%;
+    th, td {
+        border: #468BA6 solid 3px;
+            padding-left: 40px;
+            padding-right: 40px;
+}
 }
 a {
     color: #f7f7f7;
