@@ -60,6 +60,7 @@ div.rules {
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment:local;
+    background-size: 200px 400px;
     background-size: contain;
     padding-bottom: 15px;
 }
