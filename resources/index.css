@@ -64,6 +64,7 @@ div.rules {
     padding-bottom: 15px;
 }
 footer {
+    text-align: top;
     text-align: center;
     position: fixed;
     left: 0;
