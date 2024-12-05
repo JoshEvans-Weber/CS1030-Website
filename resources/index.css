@@ -56,7 +56,7 @@ div.centered {
     text-align:center
 }
 div.rules {
-    text-align:center;
+    align-items: center;
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment:local;
