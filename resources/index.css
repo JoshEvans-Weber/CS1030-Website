@@ -59,7 +59,7 @@ div.rules {
     text-align:center;
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:local;
     background-size: contain;
     padding-bottom: 15px;
 }
