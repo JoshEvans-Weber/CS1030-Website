@@ -37,7 +37,7 @@ border-color: #468BA6;
 border-width: 3px; */
 border: #468BA6 solid 3px;
     padding-left: 40px;
-        padding-right: 40px;
+    padding-right: 40px;
 }
 table {
     border-collapse: collapse;
@@ -56,10 +56,12 @@ div.centered {
     text-align:center
 }
 div.rules {
+    text-align:center;
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
+    padding-bottom: 15px;
 }
 footer {
     text-align: center;
