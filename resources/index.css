@@ -54,7 +54,7 @@ div.rules {
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment:local;
-    background-size: 400px 600px;
+    background-size: 100% 120%;
     padding-bottom: 25px;
 }
 footer {
