@@ -41,8 +41,7 @@ border: #468BA6 solid 3px;
 }
 table {
     border-collapse: collapse;
-        margin-left: auto;
-            margin-right: auto;
+    width: 80%;
 }
 a {
     color: #f7f7f7;
