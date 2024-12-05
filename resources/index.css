@@ -55,3 +55,7 @@ a:hover {
 div.centered {
     text-align:center
 }
+}
+div.rules {
+    background-image: url(MCH-paper.png);
+}
