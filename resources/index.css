@@ -18,9 +18,16 @@ body {
     padding-bottom: 10px;
 
 }
-h1, h2 {color : #2E2B2E;}
-h3{font-size: 20px;}
-h1, p.picture{
+h1, h2 
+{
+    color : #2E2B2E;
+}
+h3
+{
+    font-size: 20px;
+}
+h1, p.picture
+{
     text-align: center;
 }
 
@@ -40,18 +47,6 @@ table {
         margin-left: auto;
             margin-right: auto;
 }
-td{
-
-}
-div {
-    /* 
-    block display
-    specified width
-    left and right margins need to be equal - set both to auto
-    */
-
-}
-
 a {
     color: #f7f7f7;
     font-weight: bold;
