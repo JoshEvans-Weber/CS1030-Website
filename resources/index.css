@@ -26,6 +26,7 @@ p, li, th, td{
 font-size: 30px;
 }
 table.bordered {
+    background-color: beige;
     border-collapse: collapse;
     width: 80%;
     th, td {
