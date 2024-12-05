@@ -58,5 +58,6 @@ div.centered {
 div.rules {
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
+    background-size: contain;
 }
