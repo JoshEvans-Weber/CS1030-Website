@@ -56,6 +56,9 @@ div.rules {
     background-attachment:local;
     background-size: 90% 200%;
     padding-bottom: 25px;
+    ol{
+        text-align:center;
+    }
 }
 footer {
     font-size: 14px;
