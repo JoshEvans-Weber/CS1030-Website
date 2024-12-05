@@ -20,7 +20,7 @@ h4
 {
     font-size: 40px;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: -5px;
 }
 p, li, th, td{
 font-size: 30px;
@@ -32,6 +32,9 @@ table.bordered {
         border: #468BA6 solid 3px;
             padding-left: 40px;
             padding-right: 40px;
+}
+table.noborder {
+    margin-top: -5%;
 }
 }
 a {
