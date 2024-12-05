@@ -74,7 +74,7 @@ footer {
     height: 5%;
     background-color: rgb(124, 90, 45);
 }
-.center {
+ol.center {
     text-align: center;
     list-style-position: inside;
   }
