@@ -56,7 +56,7 @@ div.centered {
     text-align:center
 }
 div.rules {
-    align-items: center;
+    align-content: center;
     background-image: url(MCH-paper.png);
     background-repeat: no-repeat;
     background-attachment:local;
@@ -64,7 +64,7 @@ div.rules {
     padding-bottom: 15px;
 }
 footer {
-    text-align: top;
+    padding-top: 2;
     text-align: center;
     position: fixed;
     left: 0;
