@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua I Evans - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 900px;
+            box-sizing: border-box;
+            min-height: calc(100% - 40px);
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #3498db;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            margin-bottom: 25px;
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            box-sizing: border-box;
+        }
+
+        .work-experience .job-entry {
+            margin-bottom: 25px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #f8f8f8;
+            transition: background-color 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .work-experience .job-entry:hover {
+            background-color: #ecf0f1;
+        }
+
+        .job-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            box-sizing: border-box;
+        }
+
+        .supervisor-info {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .duties-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 15px;
+            color: #34495e;
+            box-sizing: border-box;
+        }
+
+        .skills-list {
+            margin-top: 15px;
+            padding-left: 25px;
+            list-style-position: inside;
+            box-sizing: border-box;
+        }
+
+        .skills-list li {
+            margin-bottom: 8px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        .education-entry {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #f8f8f8;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            box-sizing: border-box;
+        }
+
+        .education-entry img {
+            height: 50px;
+            width: auto;
+        }
+
+        .degree {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #2c3e50;
+            box-sizing: border-box;
+        }
+
+        .other-information p {
+            margin-bottom: 15px;
+            font-style: italic;
+            color: #555;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                margin: 10px auto;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .work-experience .job-entry {
+                padding: 15px;
+            }
+
+            .skills-list li {
+                font-size: 0.9rem;
+            }
+
+            .education-entry {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .education-entry img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Resume loaded!');
+            const objectiveText = "Motivated and detail-oriented individual with several years of experience in relevant field seeking to leverage strong skills to excel as an Embedded QA Assistant and contribute to the success of a company.";
+
+            const objectiveElement = document.getElementById("objectiveText");
+            if (objectiveElement) {
+                objectiveElement.textContent = objectiveText;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header class="contact-info">
+            <h1>Joshua I Evans</h1>
+            <p>Email: <a href="mailto:joshuaevans5@mail.weber.edu">joshuaevans5@mail.weber.edu</a></p>
+            <p>Phone: 706-239-7771</p>
+            <p>Address: 635 40th Street #802, South Ogden, UT, 84403</p>
+            <p>Citizenship: US</p>
+            <h3>Objective</h3>
+            <p id="objectiveText"></p>
+        </header>
+
+        <section class="section work-experience">
+            <h2>Work Experience</h2>
+            <div class="job-entry">
+                <div class="job-title">U.S ARMY</div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Logo_of_the_United_States_Army.svg/1200px-Logo_of_the_United_States_Army.svg.png" alt="U.S Army Logo" style="height: 75px;">
+                <div class="supervisor-info">
+                    Dates: 02/14 – 07/24<br>
+                    Supervisor: Michele Valverde<br>
+                    Phone: 347-316-9429<br>
+                    Hours: 40+ hrs/w, Salary: $43,000/yr
+                </div>
+                <div class="duties-title">Duties:</div>
+                <p>Joshua Evans served in the United States Army from February 2014 to July 2024 as a 92A. The duties of a 92A in the United States Army are to maintain service records for assigned equipment and keep a highly functional inventory of parts for that equipment. In the event a part is not in inventory the 92A is responsible for sourcing the part from higher levels of distribution, requiring knowledge of the supply chain and the ability to build rapport with those interacted with at the next level of supply distribution. 92A soldiers are also tasked with the disposition of recoverable, repairable or excess parts in order to maintain fiscal fluidity for their organization.</p>
+                <div class="duties-title">Skills Developed:</div>
+                <ul class="skills-list">
+                    <li>Record keeping</li>
+                    <li>Workflow management</li>
+                    <li>Time management</li>
+                    <li>Data mining</li>
+                    <li>Word processing</li>
+                    <li>Inventory keeping</li>
+                    <li>Inventory management</li>
+                    <li>Data entry</li>
+                    <li>Team building</li>
+                    <li>Talent development</li>
+                    <li>Delegation</li>
+                    <li>Counseling</li>
+                    <li>Organizational inventory keeping</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section education">
+            <h2>Education</h2>
+            <div class="education-entry">
+                <img src="https://assets.scorebooklive.com/uploads/production/school/29130/image/TitansMark-2017-01.png" alt="Syracuse High School Logo" style="height: 75px;">
+                <div>
+                    <div class="degree">High School Diploma</div>
+                    <p>Syracuse High School: Syracuse, Utah 84075</p>
+                    <p>Date: 06/12</p>
+                </div>
+            </div>
+            <div class="education-entry">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Weber_State_Wildcats_logo.svg/1200px-Weber_State_Wildcats_logo.svg.png" alt="Weber State University Logo" style="height: 75px;">
+                <div>
+                    <div class="degree">Currently Enrolled - Associates Degree</div>
+                    <p>Weber State University</p>
+                    <p>Major: Cyber Security and Network Management</p>
+                    <p>Start Date: 08/24</p>
+                    <p>Credits Earned: 48.66 / 60 (Associates), 48.66 / 120 (Bachelors)</p>
+                    <p>GPA: 3.1</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section other-information">
+            <h2>Other Information</h2>
+            <p>Possess proven leadership abilities with experience in leading small teams to achieve assigned objectives, maintaining strict accountability of assigned inventory.</p>
+            <p>Capable of applying computer science knowledge in Cyber Security and Network Management to effectively complete assigned tasks.</p>
+        </section>
+    </div>
+</body>
+</html>
