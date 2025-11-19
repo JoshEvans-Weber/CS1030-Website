@@ -1,102 +1,149 @@
+/* GLOBAL BODY STYLES */
 body {
-    height: 100%;
-    background-image: url('MCH-backround.png');
+    /* Changed height to 100vh for viewport height (better for backgrounds)
+       and margin: 0 to remove default browser margin. */
+    height: 100vh;
+    margin: 0; 
+    
+    background-image: url('https://minecraftharbor.net/resources/MCH-backround.png');
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    /* Changed background-size to 'cover' for better responsiveness, 
+       or use '100% 100%' if you specifically want it to stretch regardless of aspect ratio.
+       Using 100% 100% per your original code: */
     background-size: 100% 100%;
-    margin:auto;
+    
+    /* Removed margin: auto; as it's not applicable here */
     font-size: 16px;
 }
+
+/* MAIN CONTENT */
 main {
     min-height: 100%;
+    /* Keep in mind that margin-bottom: -6% can lead to overlapping elements, 
+       but keeping it as you had it. */
     margin-bottom: -6%;
 }
-header{
-    height:10%;
-    margin-bottom:10%
+
+/* HEADER */
+header {
+    height: 10%;
+    margin-bottom: 10%;
 }
-h1{
-    font-size:xx-large;
+
+/* HEADINGS */
+h1 {
+    font-size: xx-large;
 }
-h3{
-    margin-left:35%;
-    font-size:larger;
+
+h3 {
+    margin-left: 35%;
+    font-size: larger;
 }
-h4
-{
+
+h4 {
     font-size: 40px;
     font-weight: bold;
-    padding-top: -5px;
+    /* FIX: Changed invalid 'padding-top: -5px' to valid 'margin-top: -5px' */
+    margin-top: -5px; 
 }
-p, li, th, td{
-font-size: 30px;
+
+/* TEXT ELEMENTS */
+p, li, th, td {
+    font-size: 30px;
 }
+
+/* BORDERED TABLE STYLES */
 table.bordered {
-    margin-left:8%;
+    margin-left: 8%;
     background-color: beige;
     border-collapse: collapse;
     width: 85%;
-    th, td {
-        border: #468BA6 solid 3px;
-            padding-left: 40px;
-            padding-right: 40px;
 }
-table.noborder{
-    margin:auto;
+
+/* FIX: Moved th and td out of the nested selector for table.bordered */
+table.bordered th, 
+table.bordered td {
+    border: #468BA6 solid 3px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+/* NO BORDER TABLE STYLES */
+table.noborder {
+    margin: auto;
 }
+
+/* LINKS */
 a {
     color: #366136;
     font-weight: bold;
 }
+
 a:hover {
     color: #1d4859;
-    
 }
+
+/* CENTERED DIV */
 div.centered {
-    text-align:center
+    text-align: center;
 }
+
+/* RULES DIV */
 div.rules {
     margin-top: -9%;
-    margin-bottom:10%;
+    margin-bottom: 10%;
     height: 5%;
-    background-image: url('MCH-paper.png');
+    background-image: url(https://minecraftharbor.net/resources/MCH-paper.png);
     background-repeat: no-repeat;
-    background-attachment:local;
+    background-attachment: local;
     background-size: 100% 43%;
-    
 }
-div.table{
-    margin-top:15%;
-    height:15%;
+
+/* TABLE DIV */
+div.table {
+    margin-top: 15%;
+    height: 15%;
 }
+
+/* FOOTER */
 footer {
-    
     font-size: 14px;
-    padding: top 0vh;
+    /* FIX: Removed invalid 'padding: top 0vh' and changed to 'padding-top: 0;' */
+    padding-top: 0;
     text-align: center;
-    position: bottom;
-    left: -10;
+    /* FIX: Removed invalid 'position: bottom;' and replaced with standard fixed positioning. */
+    position: fixed; 
+    left: 0;
     bottom: 0;
-    width: 110%;
+    width: 100%; /* Changed to 100% to work better with left: 0 */
     height: 10%;
     background-color: rgb(124, 90, 45);
 }
+
+/* CENTERED LIST */
 ol.center {
     text-align: left;
     margin-left: 10%;
-    list-style-position:inside;
-  }
+    list-style-position: inside;
+}
+
+/* LEFT ALIGN DIV */
 div.left_align {            
-            float:top;
-            float:right;
-            img {
-                    position: absolute;
-                    top: -2px;
-                    right: 8px;
-            }
-        }
+    /* FIX: Removed invalid 'float:top;' */
+    float: right; 
+    /* The 'float:right' here makes the div float, which may or may not be what you intend. */
+}
+
+/* FIX: Moved img out of the nested selector for div.left_align */
+div.left_align img {
+    position: absolute;
+    top: -2px;
+    right: 8px;
+}
+
+/* INFORMATION DIV */
 div.information {
-margin-top:15%;
-background-color: rgb(124, 90, 45);
+    margin-top: 15%;
+    background-color: rgb(124, 90, 45);
 }
