@@ -147,3 +147,11 @@ div.information {
     margin-top: 15%;
     background-color: rgb(124, 90, 45);
 }
+
+.footer-placeholder {
+    /* Sets the height of the invisible space to match the fixed footer. */
+    height: 10%; 
+    
+    /* Ensures the element takes up the full width and reserves space */
+    width: 100%; 
+}
